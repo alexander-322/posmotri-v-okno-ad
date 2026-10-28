@@ -175,3 +175,33 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.search-form__fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.search-form__fieldset-title {
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: normal;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.search-form__submit-button {
+  width: 194px;
+  align-self: flex-end;
+}
