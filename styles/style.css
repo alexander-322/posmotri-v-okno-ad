@@ -75,3 +75,16 @@ ol {
   object-position: center;
   cursor: pointer;
 }
+
+.title {
+  margin-bottom: 22px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 70.5px;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
