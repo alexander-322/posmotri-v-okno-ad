@@ -40,3 +40,24 @@ ol {
   font-size: 18px;
   background-color: #1b1919;
 }
+
+.content {
+  display: grid;
+  grid-template-columns: 711px 1fr;
+  gap: 30px;
+  align-items: end;
+  inline-size: 100%;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: end;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+}
